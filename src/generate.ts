@@ -66,7 +66,7 @@ export const generate = (datadir: string) => {
         return list
       },
       {
-        name: 'Superchain Token List',
+        name: 'Few Token List',
         logoURI: `${BASE_URL}/optimism.svg`,
         keywords: ['scaling', 'layer2', 'infrastructure'],
         timestamp: new Date().toISOString(),
@@ -121,7 +121,7 @@ const getBridges = (tokenData: TokenData, chain: string, token: Token) => {
           ? 'optimismBridgeAddress'
           : 'baseBridgeAddress']:
           tokenBridgeOverride?.[l2Chain] ??
-          l1StandardBridgeInfoForL2.l1StandardBridgeAddress,
+          l1StandardBridgeInfoForL2.l1StandardBridgeAddress, // TODO: adding generate fewWrappedAddress method
       }
     })
   }

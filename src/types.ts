@@ -31,6 +31,11 @@ export type Chain =
   | 'pgn-sepolia'
   | 'sepolia'
 
+export type fewChain =
+  | 'ethereum'
+  | 'goerli'
+  | 'sepolia'
+
 const l2Chains = ['optimism', 'optimism-goerli', 'optimism-sepolia', 'base', 'base-goerli', 'pgn-sepolia', 'pgn'] as const
 export type L2Chain = typeof l2Chains[number]
 
@@ -51,7 +56,7 @@ export interface TokenData {
   decimals: number
   description: string
   website: string
-  tokens: Partial<Record<Chain, Token>>
+  tokens: Partial<Record<fewChain, Token>>
 }
 
 export interface ExpectedMismatches {

@@ -36,7 +36,7 @@
   "scripts": {
     "validate": "tsx ./bin/cli.ts validate",
     "generate": "tsx ./bin/cli.ts generate",
-    "generate:ci": "pnpm generate --datadir ./data --outfile optimism.tokenlist.json",
+    "generate:ci": "pnpm generate --datadir ./data --outfile few.tokenlist.json",
     "build": "tsup",
     "build:ci": "pnpm generate:ci && pnpm tsup --dts",
     "release": "pnpm build:ci && npm publish",

@@ -1,6 +1,6 @@
 import { ethers } from 'ethers'
 
-import { Chain, L1Chain, L2Chain, Network } from './types'
+import { Chain, fewChain, L1Chain, L2Chain, Network } from './types'
 
 const DEFAULT_INFURA_KEY = '84842078b09946638c03157f83405213'
 
@@ -79,6 +79,27 @@ export const NETWORK_DATA: Record<Chain, Network> = {
       'https://rpc.sepolia.publicgoods.network'
     ),
     layer: 2,
+  },
+}
+
+export const FEW_NETWORK_DATA: Record<fewChain, Network> = {
+  ethereum: {
+    id: 1,
+    name: 'Mainnet',
+    provider: new ethers.providers.InfuraProvider('homestead'),
+    layer: 1,
+  },
+  goerli: {
+    id: 5,
+    name: 'Goerli',
+    provider: new ethers.providers.InfuraProvider('goerli'),
+    layer: 1,
+  },
+  sepolia: {
+    id: 11155111,
+    name: 'Sepolia',
+    provider: new ethers.providers.StaticJsonRpcProvider(`https://sepolia.infura.io/v3/${DEFAULT_INFURA_KEY}`, 11155111),
+    layer: 1,
   },
 }
 
