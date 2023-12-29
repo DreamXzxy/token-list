@@ -37,7 +37,7 @@
     },
     {
       "chainId": 5,
-      "address": "0x11fE4B6AE13d2a6055C8D9cF65c55bac32B5d844",
+      "address": "0x794325B9dE05c48A7E29fa8AEE260719D97c6a2D",
       "name": "Dai Stablecoin",
       "symbol": "DAI",
       "decimals": 18,
@@ -391,6 +391,21 @@
       "extensions": {
         "opListId": "default",
         "opTokenId": "WETH"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png",
+      "extensions": {
+        "opListId": "default",
+        "opTokenId": "WETH",
+        "fewWrappedAddress": "0x6b7e07C37a157d01D71012c36644907Ab5a7694e",
+        "fewName": "Few Wrapped Wrapped Ether",
+        "fewSymbol": "fwWETH"
       }
     },
     {
