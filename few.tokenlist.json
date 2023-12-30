@@ -315,58 +315,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
-      "name": "Wrapped BTC",
-      "symbol": "WBTC",
-      "decimals": 8,
-      "logoURI": "https://ethereum-optimism.github.io/data/WBTC/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
-        "opListId": "default",
-        "opTokenId": "WBTC"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
-      "name": "Wrapped BTC",
-      "symbol": "WBTC",
-      "decimals": 8,
-      "logoURI": "https://ethereum-optimism.github.io/data/WBTC/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "default",
-        "opTokenId": "WBTC"
-      }
-    },
-    {
-      "chainId": 5,
-      "address": "0xC04B0d3107736C32e19F1c62b2aF67BE61d63a05",
-      "name": "Wrapped BTC",
-      "symbol": "WBTC",
-      "decimals": 8,
-      "logoURI": "https://ethereum-optimism.github.io/data/WBTC/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
-        "opListId": "default",
-        "opTokenId": "WBTC"
-      }
-    },
-    {
-      "chainId": 420,
-      "address": "0xe0a592353e81a94Db6E3226fD4A99F881751776a",
-      "name": "Wrapped BTC L2",
-      "symbol": "WBTC",
-      "decimals": 8,
-      "logoURI": "https://ethereum-optimism.github.io/data/WBTC/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "default",
-        "opTokenId": "WBTC"
-      }
-    },
-    {
-      "chainId": 1,
       "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
       "name": "Wrapped Ether",
       "symbol": "WETH",
