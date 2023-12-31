@@ -30,7 +30,7 @@
       "address": "0x22Fe0875A343B319a8ca0e61C958150aD4321BF0",
       "name": "USD Coin",
       "symbol": "USDC",
-      "decimals": 6,
+      "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
       "extensions": {
         "opListId": "default",
@@ -45,7 +45,7 @@
       "address": "0x73EF924Ad649D80375077A7A5A30BDEE1fB733FA",
       "name": "Tether USD",
       "symbol": "USDT",
-      "decimals": 6,
+      "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
