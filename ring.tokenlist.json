@@ -70,21 +70,6 @@
         "fewName": "Few Wrapped Wrapped Ether",
         "fewSymbol": "fwWETH"
       }
-    },
-    {
-      "chainId": 5,
-      "address": "0xB85cb1CB1cb5Dc9cC7F836b7C80826257b634484",
-      "name": "Ring Exchange",
-      "symbol": "RNG",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png",
-      "extensions": {
-        "opListId": "default",
-        "opTokenId": "RNG",
-        "fewWrappedAddress": "0xe6B8dDee63CaD05f686d5e66Ba18893AF366CFa7",
-        "fewName": "Few Wrapped Ring Exchange",
-        "fewSymbol": "fwRNG"
-      }
     }
   ],
   "version": {
