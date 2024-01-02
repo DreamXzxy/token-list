@@ -14,7 +14,7 @@
       "name": "Ring Exchange",
       "symbol": "RNG",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png",
+      "logoURI": "",
       "extensions": {
         "opListId": "default",
         "opTokenId": "RNG",
