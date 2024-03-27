@@ -1,14 +1,9 @@
 {
   "name": "Few Token List",
   "logoURI": "https://raw.githubusercontent.com/RingProtocol/token-list/master/assets/asset_RNG.svg",
-  "keywords": [
-    "scaling",
-    "layer2",
-    "infrastructure"
-  ],
+  "keywords": ["scaling", "layer2", "infrastructure"],
   "timestamp": "2023-12-29T04:10:37.690Z",
   "tokens": [
-
     {
       "chainId": 81457,
       "address": "0x4300000000000000000000000000000000000004",
@@ -310,6 +305,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 21
+    "patch": 22
   }
 }
