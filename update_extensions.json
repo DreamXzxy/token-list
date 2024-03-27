@@ -51,11 +51,24 @@
         "fewName": "Few Wrapped USD Coin",
         "fewSymbol": "fwUSDC"
       }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x5fbad067f69eBbc276410D78fF52823be133eD48",
+      "name": "DAI",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.png",
+      "extensions": {
+        "fewWrappedAddress": "0x09D8486e42Aa76229a563bFa0f07CA301aCd29C9",
+        "fewName": "Few Wrapped DAI",
+        "fewSymbol": "fwUSDC"
+      }
     }
   ],
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 1
+    "patch": 2
   }
 }
