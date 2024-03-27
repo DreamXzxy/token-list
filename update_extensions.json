@@ -1,0 +1,61 @@
+{
+  "name": "Few Token List",
+  "logoURI": "https://raw.githubusercontent.com/Few-Protocol/token-list/master/assets/asset_RNG.svg",
+  "keywords": [
+    "scaling",
+    "layer2",
+    "infrastructure"
+  ],
+  "timestamp": "2023-12-29T04:10:37.690Z",
+  "tokens": [
+    {
+      "name": "Uniswap",
+      "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+      "symbol": "UNI",
+      "decimals": 18,
+      "chainId": 11155111,
+      "logoURI": "ipfs://QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg"
+    },
+    {
+      "name": "Wrapped Ether",
+      "address": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+      "symbol": "WETH",
+      "decimals": 18,
+      "chainId": 11155111,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x7db5fA1170D15e8D02deFB483b833EB1f3bAAC38",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png",
+      "extensions": {
+        "bridgeInfo": {
+          "1": {
+            "tokenAddress": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0xA7a151d60Bbd522d3611C2dB3F1F972Ee9904B3e",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
+      "extensions": {
+        "fewWrappedAddress": "0x76AC72683C5b7F22C6B5Ed85B5B1511702464F7e",
+        "fewName": "Few Wrapped USD Coin",
+        "fewSymbol": "fwUSDC"
+      }
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 1
+  }
+}
