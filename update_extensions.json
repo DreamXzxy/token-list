@@ -64,11 +64,24 @@
         "fewName": "Few Wrapped DAI",
         "fewSymbol": "fwUSDC"
       }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x60735d0a0B731bD07f9fa8733f0F9B6c6eDA3Be7",
+      "name": "Ring Governance Token",
+      "symbol": "RING",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/RingProtocol/token-list/master/assets/asset_RNG.svg",
+      "extensions": {
+        "fewWrappedAddress": "0xC15bCBFA8ee06d98F0b7B14f6E04109bC751c622",
+        "fewName": "Few Wrapped Ring Governance Token",
+        "fewSymbol": "fwRING"
+      }
     }
   ],
   "version": {
     "major": 2,
     "minor": 0,
-    "patch": 2
+    "patch": 3
   }
 }
